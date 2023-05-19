@@ -1,0 +1,20 @@
+ WINDOW:
+
+      1) The window object is supported by all browsers,it represents the browser window.
+
+      2) All js variables and functions are the member of the window.
+
+     3) global variables are the properties of window.
+
+     4) global fuctions are the methods of window.
+
+     5) Document is also the properties of window.
+
+
+  SCREEN:
+
+      The window object screen contains information about the user screen.
+
+  DOCUMENT:
+ 
+      Javascript document object is an object that provides access to all HTML elements.
