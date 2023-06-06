@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <script src="data.js"></script>
+</head>
+
+<body onload="paginationCreation(),data(1)">
+    <div class="container text-center">
+        <h1 id="title" class="mt-4 mb-4">PARTHIBAN</h1>
+        <p id="description">It's My Paginatin Task</p>
+        <!--table color -->
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <!--table heading-->
+                <thead class="thead-dark  ">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">E-mail</th>
+                    </tr>
+                </thead>
+                <!--table body -->
+                <tbody id="tBody">
+
+                </tbody>
+            </table>
+        </div>
+        <!--page number 1 to 20 fixed in bottom-->
+        <div id="buttons" class=" d-flex justify-content-center fixed-bottom">
+            <nav class="">
+                <ul id="paginationDiv" class="pagination">
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js">
+
+    </script>
+</body>
+
+</html>

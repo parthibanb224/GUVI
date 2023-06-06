@@ -1,0 +1,64 @@
+<html>
+
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <main class="Calculator">
+            <h1 id="title" style="text-align: center;">DOM CALCULATOR</h1>
+            <p id="description"> This My First calculator , This Task Awesome , iam taken so many usefull code</p>
+            <table>
+                <tr>
+                    <td colspan="3"><input value="0" id="result" type="text"></td>
+                </tr>
+                <tr>
+                    <td><button id="clear" onclick="clean()">C</button></td>
+                    <td><button>AC</button></td>
+                    <td><button onclick="dis('.')">.</button></td>
+                    <td><button onclick="dis('x')">x</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="dis('7')">7</button></td>
+                    <td><button onclick="dis('8')">8</button></td>
+                    <td><button onclick="dis('9')">9</button></td>
+                    <td><button onclick="dis('/')">/</button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="dis('4')">4</button></td>
+                    <td><button onclick="dis('5')">5</button></td>
+                    <td><button onclick="dis('6')">6</button></td>
+                    <td><button id="subtract" onclick="dis('-')">-</button></td>
+
+                </tr>
+                <tr>
+                    <td><button id="1" onclick="dis('1')">1</button></td>
+                    <td><button id="2" onclick="dis('2')">2</button></td>
+                    <td><button id="3" onclick="dis('3')">3</button></td>
+                    <td><button id="add" onclick="dis('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dis('0')">0</button></td>
+                    <td><button onclick="dis('00')">00</button></td>
+                    <td><button id="equal" onclick="equal()">=</button></td>
+                </tr>
+            </table>
+
+        </main>
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+
+</html>
