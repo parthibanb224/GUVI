@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(35, 64, 75);
+}
+
+.card-body {
+    background-color: rgb(219, 200, 162);
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+}
+
+#title {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 170px;
+}
